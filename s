@@ -1960,8 +1960,8 @@ btn("NAME REANIMATE", function()
 	local velbycfrvec=t.velbycfrvec
 	local addmode=t.addmode
 	local getJoint=t.getJoint
-    local getPartFromMesh=t.getPartFromMesh
-    local getPartJoint=t.getPartJoint
+        local getPartFromMesh=t.getPartFromMesh
+        local getPartJoint=t.getPartJoint
 	local velYchg=t.velYchg
 	local setWalkSpeed=t.setWalkSpeed
 	local RootJoint=getJoint("RootJoint")
