@@ -1991,13 +1991,7 @@ btn("NAME REANIMATE", function()
 			local Ychg=velYchg()/20
 
 
-Neck.C0=Lerp(Neck.C0,cfMul(cf(0,1,0),angles(-1.5707963267948966,0,3.141592653589793)),deltaTime)  RightHip.C0=Lerp(RightHip.C0,cfMul(cf(1,-1,0),angles(0,1.5707963267948966,0)),deltaTime)  RootJoint.C0=Lerp(RootJoint.C0,cfMul(cf(0,4,0),angles(-1.5707963267948966,0,3.141592653589793)),deltaTime)  LeftShoulder.C0=Lerp(LeftShoulder.C0,cfMul(cf(-1,0.5,0),angles(0,-1.5707963267948966,0)),deltaTime)  RightShoulder.C0=Lerp(RightShoulder.C0,cfMul(cf(1,0.5,0),angles(0,1.5707963267948966,0)),deltaTime)  LeftHip.C0=Lerp(LeftHip.C0,cfMul(cf(-1,-1,0),angles(0,-1.5707963267948966,0)),deltaTime)
-AfkheadWeld.C0=Lerp(AfkheadWeld.C0,cfMul(cf(0,0.1,-0.5+0.1*sin(sine*3)),angles(-3.3161255787892263+0.017453292519943295*sin(sine*3),0.05235987755982989,-3.141592653589793)),deltaTime
-AfktorsoWeld.C0=Lerp(AfktorsoWeld.C0,angles(-0.08726646259971647+0.017453292519943295*sin(sine*3),0,3.141592653589793),deltaTime)
-AfklarmoWeld.C0=Lerp(AfklarmoWeld.C0,cf(-3,1,0.6+0.1*sin(sine*-3)),deltaTime)
-AfkrarmoWeld.C0=Lerp(AfkrarmoWeld.C0,cf(3,-0.9819998741149902,0.6+0.1*sin(sine*-3)),deltaTime)
-AfkllegWeld.C0=Lerp(AfkllegWeld.C0,cfMul(cf(6,1,0),angles(0.08726646259971647+0.0017453292519943296*sin(sine*3),0,-1.5707963267948966)),deltaTime)
-AfkrlegWeld.C0=Lerp(AfkrlegWeld.C0,cfMul(cf(1,5,0.5),angles(0,-0.08726646259971647+0.017453292519943295*sin(sine*3),0)),deltaTime) 
+Neck.C0=Lerp(Neck.C0,cfMul(cf(0,1,0),angles(-1.5707963267948966,0,3.141592653589793)),deltaTime)  RightHip.C0=Lerp(RightHip.C0,cfMul(cf(1,-1,0),angles(0,1.5707963267948966,0)),deltaTime)  RootJoint.C0=Lerp(RootJoint.C0,cfMul(cf(0,4,0),angles(-1.5707963267948966,0,3.141592653589793)),deltaTime)  LeftShoulder.C0=Lerp(LeftShoulder.C0,cfMul(cf(-1,0.5,0),angles(0,-1.5707963267948966,0)),deltaTime)  RightShoulder.C0=Lerp(RightShoulder.C0,cfMul(cf(1,0.5,0),angles(0,1.5707963267948966,0)),deltaTime)  LeftHip.C0=Lerp(LeftHip.C0,cfMul(cf(-1,-1,0),angles(0,-1.5707963267948966,0)),deltaTime) 
 
 end,
 		walk = function()
