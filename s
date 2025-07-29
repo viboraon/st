@@ -1970,18 +1970,7 @@ btn("NAME REANIMATE", function()
 	local RightHip=getJoint("Right Hip")
 	local LeftHip=getJoint("Left Hip")
 	local Neck=getJoint("Neck")
-        local afkhead = getPartFromMesh(111563274868006,128071928587302)
-        local AfkheadWeld = getPartJoint(afkhead)
-        local afktorso = getPartFromMesh(126825022897778,136752500636691)
-        local AfktorsoWeld = getPartJoint(afktorso)
-        local afklarm = getPartFromMesh(117649985156221,103757531289975)
-        local AfklarmoWeld = getPartJoint(afklarm)
-        local afkrarm = getPartFromMesh(93749227415046,103757531289975)
-        local AfkrarmoWeld = getPartJoint(afkrarm)
-        local afklleg = getPartFromMesh(138744606849121,136752500636691)
-        local AfkllegWeld = getPartJoint(afklleg)
-        local afkrleg = getPartFromMesh(76010149115685,103160995675216)
-        local AfkrlegWeld = getPartJoint(afkrleg)
+
 
 
 	addmode("default", {
